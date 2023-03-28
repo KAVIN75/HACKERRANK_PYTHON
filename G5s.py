@@ -1,13 +1,3 @@
-'''
-sum without sum() built-in function
-_________________________________________________
-n=list(map(int,input().split())) # 1 2 3 4
-s=0
-for x in n:
-    s+=x
-print(s) # 10
-__________________________________________________
-'''
 # program 1
 '''
 reverse each space seperated strings
@@ -20,6 +10,7 @@ n=input().split() #hello hola bye adios -> ['hello','hola','bye','adios']
 rev=[x[::-1] for x in n] #['olleh','aloh','eyb','soida']
 print(' '.join(rev)) #olleh aloh eyb soida
 
+#______________________________________________________________________________________
 
 # program 2
 '''
@@ -32,6 +23,7 @@ output:
 n=list(map(int,input().split())) # 23 565 1213 32 -> [23,565,1213,32]
 print(str(sum(n))) # 10(type of string)
 
+#______________________________________________________________________________________
 
 # program 3
 '''
@@ -53,6 +45,7 @@ if 1 in n:
 else:
     print(sum(n))
 
+#______________________________________________________________________________________
 
 # progarm 4
 '''
@@ -73,6 +66,7 @@ if(len(x)==n): # 5
     for i in a:
         print(i,end=" ") # 3 4 5 1 2 (after the end of all loop)
         
+#______________________________________________________________________________________
 
 # program 5
 '''

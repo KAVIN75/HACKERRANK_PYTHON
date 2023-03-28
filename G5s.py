@@ -1,3 +1,13 @@
+'''
+sum without sum() built-in function
+_________________________________________________
+n=list(map(int,input().split())) # 1 2 3 4
+s=0
+for x in n:
+    s+=x
+print(s) # 10
+__________________________________________________
+'''
 # program 1
 '''
 reverse each space seperated strings

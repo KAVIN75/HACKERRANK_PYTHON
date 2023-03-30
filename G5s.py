@@ -38,10 +38,8 @@ output2:
 100
 '''
 n=list(map(int,input().split()))
-if 1 in n:
-    if 2 in n:
-        if 3 in n:
-            print("24")
+if  (x  in n and y in n and z in n):
+    print("24")
 else:
     print(sum(n))
 

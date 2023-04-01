@@ -1,4 +1,4 @@
-# program 1
+ii# program 1
 '''
 reverse each space seperated strings
 input:
@@ -66,9 +66,10 @@ if(len(x)==n): # 5
         
 #______________________________________________________________________________________
 
-# program 5
+# program5
 '''
 email id verification.
+
 '''
     
     

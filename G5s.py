@@ -69,10 +69,16 @@ if(len(x)==n): # 5
 # program5
 '''
 email id verification.
-
 '''
-    
-    
+n=input()
+f=1
+if '@'and '.' not in n:
+	f=0
+if f!=0:
+	print("valid id")
+else:
+	print("invalid id")
+
 
 
 

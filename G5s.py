@@ -77,7 +77,7 @@ if '@'and '.' not in n:
 if f!=0:
 	print("valid id")
 else:
-	print("invalid id")
+	print("Invalid id")
 
 
 

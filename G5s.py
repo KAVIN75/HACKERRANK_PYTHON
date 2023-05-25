@@ -1,4 +1,4 @@
-ii# program 1
+# program 1
 '''
 reverse each space seperated strings
 input:

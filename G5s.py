@@ -58,6 +58,7 @@ output:
 n=int(input()) # 5
 k=int(input()) # 3
 x=list(map(str,input().split())) # ['1','2','3','4','5']
+
 if(len(x)==n): # 5
     m=''.join(x) # 12345(joining w/o space for slicing the string whitespaces lead to wrong results)
     a=m[n-k:n]+m[0:n-k] # 34512
@@ -68,7 +69,7 @@ if(len(x)==n): # 5
 
 # program5
 '''
-email id verification.
+Email id verification.
 '''
 n=input()
 f=1

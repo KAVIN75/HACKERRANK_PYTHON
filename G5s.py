@@ -7,7 +7,7 @@ output:
 olleh aloh eyb soida
 '''
 n=input().split() #hello hola bye adios -> ['hello','hola','bye','adios']
-rev=[x[::-1] for x in n] #['olleh','aloh','eyb','soida']
+rev=[x[::-1] for x in n] #list comprehension #['olleh','aloh','eyb','soida']
 print(' '.join(rev)) #olleh aloh eyb soida
 
 #______________________________________________________________________________________
